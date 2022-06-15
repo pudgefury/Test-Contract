@@ -1,0 +1,27 @@
+{
+  "name": "contest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.8"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0-rc.0",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "dotenv": "^16.0.0",
+    "merkletreejs": "^0.2.24"
+  }
+}
